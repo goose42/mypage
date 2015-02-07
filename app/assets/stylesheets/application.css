@@ -13,3 +13,6 @@
  *= require bootstrap.min
  *= require cover
  */
+.lead {
+  text-align: left;
+}
