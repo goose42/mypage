@@ -1,14 +1,13 @@
 <% provide(:title, "Contact") %>
 <% provide(:contact?, "active") %>
 <div class="inner cover">
-  <p class="lead">I am reachable via Email:
-  <script language="JavaScript"><!--
+  <p class="lead" id="email_id"> I hope you're on a browser that can run JS </p>
+  <script language="JavaScript">
     var name = "the.jayanth";
     var domain = "gmail.com";
-    document.write('<a href=\"mailto:' + name + '@' + domain + '\">');
-    document.write(name + '@' + domain + '</a>');
+    document.getElementById("email_id").write('<a href=\"mailto:' + name + '@' + domain + '\">');
+    document.getElementById("email_id").write('I am reachable via Email: ' + name + '@' + domain + '</a>');
   </script>
-  </p>
   <p class="lead"></p>
 </div>
 
